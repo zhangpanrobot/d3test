@@ -97,8 +97,8 @@ var colorOne = d3.scale.quantize()
             return d.properties.name;
            })
            .attr({
-	           	'x': function(d){return projection(d.properties.cp)[0]
-	           ,'y': function(d){return projection(d.properties.cp)[1]
+	           	'x': function(d){return projection(d.properties.cp)[0]}
+	           ,'y': function(d){return projection(d.properties.cp)[1]}
 	           ,'font-size': '11'
 	           ,'fill': 'yellow'
        		})
