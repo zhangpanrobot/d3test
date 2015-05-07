@@ -24,7 +24,11 @@ var colorOne = d3.scale.quantize()
                 .append("path")
                 .attr("d", path)
                 .on('mouseover', function(data) {
-                    d3.select(this).attr('opacity', '0.5');
+                    var selfEle = d3.select(this);
+                    selfEle.attr('opacity', '0.5');
+                    selfEle.attr('id', function(d){
+                        return d.id;
+                    })
                     //创建显示tooltip用的矩形
                     svg.append("rect")
                             .attr({
@@ -63,6 +67,12 @@ var colorOne = d3.scale.quantize()
                                 "fill": "black"
                             })
                             .text("下属市:" + data.properties.childNum + "个");
+                    d3.json("./public/mapData.json", function(data){
+                        console.log(data);
+                        d3.json('/getdata?url=' + data[selfEle.attr('id')].url, function(province_data){
+                            console.log(province_data);
+                        });
+                    });
                 })
                 .on('mouseout', function(data) {
                     d3.select(this).attr('opacity', '1');
@@ -104,3 +114,39 @@ var colorOne = d3.scale.quantize()
        		})
            .style('opacity', '0.75');
     });
+
+
+function getLinks(){
+    var ele = $('#article_content ul')[0].children;
+    [].slice.call(ele).forEach(function(item, i){
+        var placeId = item.childNodes[1].textContent.split('.')[0]
+        data[placeId] = {
+            "name": item.childNodes[0].textContent.slice(0, -1),
+            "url": item.children[0].href,
+            "id": item.childNodes[1].textContent.split('.')[0]
+        }
+    });
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -3,7 +3,7 @@
 	"features": [
 		{
 			"type": "Feature",
-			"id": "xin_jiang",
+			"id": "xinjiang",
 			"properties": {
 				"name": "新疆",
 				"cp": [84.9023, 41.748],
@@ -17,7 +17,7 @@
 			}
 		}, {
 			"type": "Feature",
-			"id": "xi_zang",
+			"id": "xizang",
 			"properties": {
 				"name": "西藏",
 				"cp": [88.7695, 31.6846],
@@ -31,7 +31,7 @@
 			}
 		}, {
 			"type": "Feature",
-			"id": "nei_meng_gu",
+			"id": "neimenggu",
 			"properties": {
 				"name": "内蒙古",
 				"cp": [117.5977, 44.3408],
@@ -45,7 +45,7 @@
 			}
 		}, {
 			"type": "Feature",
-			"id": "qing_hai",
+			"id": "qinghai",
 			"properties": {
 				"name": "青海",
 				"cp": [96.2402, 35.4199],
@@ -59,7 +59,7 @@
 			}
 		}, {
 			"type": "Feature",
-			"id": "si_chuan",
+			"id": "sichuan",
 			"properties": {
 				"name": "四川",
 				"cp": [102.9199, 30.1904],
@@ -73,7 +73,7 @@
 			}
 		}, {
 			"type": "Feature",
-			"id": "hei_long_jiang",
+			"id": "heilongjiang",
 			"properties": {
 				"name": "黑龙江",
 				"cp": [128.1445, 48.5156],
@@ -87,7 +87,7 @@
 			}
 		}, {
 			"type": "Feature",
-			"id": "gan_su",
+			"id": "gansu",
 			"properties": {
 				"name": "甘肃",
 				"cp": [95.7129, 40.166],
@@ -101,7 +101,7 @@
 			}
 		}, {
 			"type": "Feature",
-			"id": "yun_nan",
+			"id": "yunnan",
 			"properties": {
 				"name": "云南",
 				"cp": [101.8652, 25.1807],
@@ -115,7 +115,7 @@
 			}
 		}, {
 			"type": "Feature",
-			"id": "guang_xi",
+			"id": "guangxi",
 			"properties": {
 				"name": "广西",
 				"cp": [108.2813, 23.6426],
@@ -129,7 +129,7 @@
 			}
 		}, {
 			"type": "Feature",
-			"id": "hu_nan",
+			"id": "hunan",
 			"properties": {
 				"name": "湖南",
 				"cp": [111.5332, 27.3779],
@@ -143,7 +143,7 @@
 			}
 		}, {
 			"type": "Feature",
-			"id": "shan_xi_1",
+			"id": "shanxi1",
 			"properties": {
 				"name": "陕西",
 				"cp": [109.5996, 35.6396],
@@ -157,7 +157,7 @@
 			}
 		}, {
 			"type": "Feature",
-			"id": "guang_dong",
+			"id": "guangdong",
 			"properties": {
 				"name": "广东",
 				"cp": [113.4668, 22.8076],
@@ -172,7 +172,7 @@
 			}
 		}, {
 			"type": "Feature",
-			"id": "ji_lin",
+			"id": "jilin",
 			"properties": {
 				"name": "吉林",
 				"cp": [126.4746, 43.5938],
@@ -186,7 +186,7 @@
 			}
 		}, {
 			"type": "Feature",
-			"id": "he_bei",
+			"id": "hebei",
 			"properties": {
 				"name": "河北",
 				"cp": [115.4004, 37.9688],
@@ -203,7 +203,7 @@
 			}
 		}, {
 			"type": "Feature",
-			"id": "hu_bei",
+			"id": "hubei",
 			"properties": {
 				"name": "湖北",
 				"cp": [112.2363, 31.1572],
@@ -217,7 +217,7 @@
 			}
 		}, {
 			"type": "Feature",
-			"id": "gui_zhou",
+			"id": "guizhou",
 			"properties": {
 				"name": "贵州",
 				"cp": [106.6113, 26.9385],
@@ -231,7 +231,7 @@
 			}
 		}, {
 			"type": "Feature",
-			"id": "shan_dong",
+			"id": "shandong",
 			"properties": {
 				"name": "山东",
 				"cp": [118.7402, 36.4307],
@@ -245,7 +245,7 @@
 			}
 		}, {
 			"type": "Feature",
-			"id": "jiang_xi",
+			"id": "jiangxi",
 			"properties": {
 				"name": "江西",
 				"cp": [116.0156, 27.29],
@@ -259,7 +259,7 @@
 			}
 		}, {
 			"type": "Feature",
-			"id": "he_nan",
+			"id": "henan",
 			"properties": {
 				"name": "河南",
 				"cp": [113.4668, 33.8818],
@@ -273,7 +273,7 @@
 			}
 		}, {
 			"type": "Feature",
-			"id": "liao_ning",
+			"id": "liaoning",
 			"properties": {
 				"name": "辽宁",
 				"cp": [122.3438, 41.0889],
@@ -287,7 +287,7 @@
 			}
 		}, {
 			"type": "Feature",
-			"id": "shan_xi_2",
+			"id": "shanxi2",
 			"properties": {
 				"name": "山西",
 				"cp": [112.4121, 37.6611],
@@ -301,7 +301,7 @@
 			}
 		}, {
 			"type": "Feature",
-			"id": "an_hui",
+			"id": "anhui",
 			"properties": {
 				"name": "安徽",
 				"cp": [117.2461, 32.0361],
@@ -315,7 +315,7 @@
 			}
 		}, {
 			"type": "Feature",
-			"id": "fu_jian",
+			"id": "fujian",
 			"properties": {
 				"name": "福建",
 				"cp": [118.3008, 25.9277],
@@ -329,7 +329,7 @@
 			}
 		}, {
 			"type": "Feature",
-			"id": "zhe_jiang",
+			"id": "zhejiang",
 			"properties": {
 				"name": "浙江",
 				"cp": [120.498, 29.0918],
@@ -343,7 +343,7 @@
 			}
 		}, {
 			"type": "Feature",
-			"id": "jiang_su",
+			"id": "jiangsu",
 			"properties": {
 				"name": "江苏",
 				"cp": [120.0586, 32.915],
@@ -357,7 +357,7 @@
 			}
 		}, {
 			"type": "Feature",
-			"id": "chong_qing",
+			"id": "chongqing",
 			"properties": {
 				"name": "重庆",
 				"cp": [107.7539, 30.1904],
@@ -371,7 +371,7 @@
 			}
 		}, {
 			"type": "Feature",
-			"id": "ning_xia",
+			"id": "ningxia",
 			"properties": {
 				"name": "宁夏",
 				"cp": [105.9961, 37.3096],
@@ -385,7 +385,7 @@
 			}
 		}, {
 			"type": "Feature",
-			"id": "hai_nan",
+			"id": "hainan",
 			"properties": {
 				"name": "海南",
 				"cp": [109.9512, 19.2041],
@@ -399,7 +399,7 @@
 			}
 		}, {
 			"type": "Feature",
-			"id": "tai_wan",
+			"id": "taiwan",
 			"properties": {
 				"name": "台湾",
 				"cp": [121.0254, 23.5986],
@@ -413,7 +413,7 @@
 			}
 		}, {
 			"type": "Feature",
-			"id": "bei_jing",
+			"id": "beijing",
 			"properties": {
 				"name": "北京",
 				"cp": [116.4551, 40.2539],
@@ -427,7 +427,7 @@
 			}
 		}, {
 			"type": "Feature",
-			"id": "tian_jin",
+			"id": "tianjin",
 			"properties": {
 				"name": "天津",
 				"cp": [117.4219, 39.4189],
@@ -441,7 +441,7 @@
 			}
 		}, {
 			"type": "Feature",
-			"id": "shang_hai",
+			"id": "shanghai",
 			"properties": {
 				"name": "上海",
 				"cp": [121.4648, 31.2891],
@@ -455,7 +455,7 @@
 			}
 		}, {
 			"type": "Feature",
-			"id": "xiang_gang",
+			"id": "hongkong",
 			"properties": {
 				"name": "香港",
 				"cp": [114.2578, 22.3242],
@@ -469,7 +469,7 @@
 			}
 		}, {
 			"type": "Feature",
-			"id": "ao_men",
+			"id": "macau",
 			"properties": {
 				"name": "澳门",
 				"cp": [113.5547, 22.1484],

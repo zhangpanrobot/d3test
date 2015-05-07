@@ -9,6 +9,6 @@
         "express": "*",
         "gulp":"*",
         "gulp-livereload": "*",
-        "bower": "*"
+        "request": "*"
     }
 }

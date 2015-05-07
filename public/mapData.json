@@ -1,0 +1,142 @@
+{
+  "china": {
+    "name": "中国",
+    "url": "http://www.ourd3js.com/map/china_provinces/china.json"
+  },
+  "anhui": {
+    "name": "安徽",
+    "url": "http://www.ourd3js.com/map/china_provinces/anhui.json"
+  },
+  "beijing": {
+    "name": "北京",
+    "url": "http://www.ourd3js.com/map/china_provinces/beijing.json"
+  },
+  "chongqing": {
+    "name": "重庆",
+    "url": "http://www.ourd3js.com/map/china_provinces/chongqing.json"
+  },
+  "fujian": {
+    "name": "福建",
+    "url": "http://www.ourd3js.com/map/china_provinces/fujian.json"
+  },
+  "gansu": {
+    "name": "甘肃",
+    "url": "http://www.ourd3js.com/map/china_provinces/gansu.json"
+  },
+  "guangdong": {
+    "name": "广东",
+    "url": "http://www.ourd3js.com/map/china_provinces/guangdong.json"
+  },
+  "guangxi": {
+    "name": "广西",
+    "url": "http://www.ourd3js.com/map/china_provinces/guangxi.json"
+  },
+  "guizhou": {
+    "name": "贵州",
+    "url": "http://www.ourd3js.com/map/china_provinces/guizhou.json"
+  },
+  "hainan": {
+    "name": "海南",
+    "url": "http://www.ourd3js.com/map/china_provinces/hainan.json"
+  },
+  "heibei": {
+    "name": "河北",
+    "url": "http://www.ourd3js.com/map/china_provinces/hebei.json"
+  },
+  "heilongjiang": {
+    "name": "黑龙江",
+    "url": "http://www.ourd3js.com/map/china_provinces/heilongjiang.json"
+  },
+  "henan": {
+    "name": "河南",
+    "url": "http://www.ourd3js.com/map/china_provinces/henan.json"
+  },
+  "hongkong": {
+    "name": "香港",
+    "url": "http://www.ourd3js.com/map/china_provinces/hongkong.json"
+  },
+  "hubei": {
+    "name": "湖北",
+    "url": "http://www.ourd3js.com/map/china_provinces/hubei.json"
+  },
+  "hunan": {
+    "name": "湖南",
+    "url": "http://www.ourd3js.com/map/china_provinces/hunan.json"
+  },
+  "jiangsu": {
+    "name": "江苏",
+    "url": "http://www.ourd3js.com/map/china_provinces/jiangsu.json"
+  },
+  "jiangxi": {
+    "name": "江西",
+    "url": "http://www.ourd3js.com/map/china_provinces/jiangxi.json"
+  },
+  "jilin": {
+    "name": "吉林",
+    "url": "http://www.ourd3js.com/map/china_provinces/jilin.json"
+  },
+  "liaoning": {
+    "name": "辽宁",
+    "url": "http://www.ourd3js.com/map/china_provinces/liaoning.json"
+  },
+  "macau": {
+    "name": "澳门",
+    "url": "http://www.ourd3js.com/map/china_provinces/macau.json"
+  },
+  "neimenggu": {
+    "name": "内蒙古",
+    "url": "http://www.ourd3js.com/map/china_provinces/neimenggu.json"
+  },
+  "ningxia": {
+    "name": "宁夏",
+    "url": "http://www.ourd3js.com/map/china_provinces/ningxia.json"
+  },
+  "qinghai": {
+    "name": "青海",
+    "url": "http://www.ourd3js.com/map/china_provinces/qinghai.json"
+  },
+  "shanxi1": {
+    "name": "山西",
+    "url": "http://www.ourd3js.com/map/china_provinces/shan1xi.json"
+  },
+  "shanxi2": {
+    "name": "陕西",
+    "url": "http://www.ourd3js.com/map/china_provinces/shan3xi.json"
+  },
+  "shandong": {
+    "name": "山东",
+    "url": "http://www.ourd3js.com/map/china_provinces/shandong.json"
+  },
+  "shanghai": {
+    "name": "上海",
+    "url": "http://www.ourd3js.com/map/china_provinces/shanghai.json"
+  },
+  "sichuan": {
+    "name": "四川",
+    "url": "http://www.ourd3js.com/map/china_provinces/sichuan.json"
+  },
+  "taiwan": {
+    "name": "台湾",
+    "url": "http://www.ourd3js.com/map/china_provinces/taiwan.json"
+  },
+  "tianjin": {
+    "name": "天津",
+    "url": "http://www.ourd3js.com/map/china_provinces/tianjin.json"
+  },
+  "xinjiang": {
+    "name": "新疆",
+    "url": "http://www.ourd3js.com/map/china_provinces/xinjiang.json"
+  },
+  "xizang": {
+    "name": "西藏",
+    "url": "http://www.ourd3js.com/map/china_provinces/xizang.json"
+  },
+  "yunnan": {
+    "name": "云南",
+    "url": "http://www.ourd3js.com/map/china_provinces/yunnan.json"
+  },
+  "zhejiang": {
+    "name": "浙江",
+    "url": "http://www.ourd3js.com/map/china_provinces/zhejiang.json"
+  }
+}
