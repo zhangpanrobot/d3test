@@ -7,7 +7,7 @@ var colorOne = d3.scale.quantize()
             .attr("width", width)
             .attr("height", height);
     //创建投影(projection)
-    var projection = d3.geo.mercator().translate([width / 2, height / 2]).center([105, 38]).scale(850);
+    var projection = d3.geo.mercator().translate([width / 2, height / 2]).center([105, 38]).scale(1000);
     //创建path
     var path = d3.geo.path().projection(projection);
 
@@ -67,12 +67,24 @@ var colorOne = d3.scale.quantize()
                                 "fill": "black"
                             })
                             .text("下属市:" + data.properties.childNum + "个");
-                    d3.json("./public/mapData.json", function(data){
-                        console.log(data);
-                        d3.json('/getdata?url=' + data[selfEle.attr('id')].url, function(province_data){
-                            console.log(province_data);
-                        });
-                    });
+                    // d3.json("./public/mapData.json", function(data){
+                    //     d3.json('/getdata?url=' + data[selfEle.attr('id')].url, function(province_data){
+                    //     			//console.log(selfEle.selectAll);
+                    //     			var a = svg.selectAll("path")
+								            // .data(province_data.features)
+								            // .enter()
+								            // .append("path")
+								            // .attr("d", path)
+								            // .attr({
+							             //        'fill': function(d){
+							             //            return colorOne(d.properties.childNum)
+							             //        },
+							             //        'stroke': 'rgba(255,255,255, 05)',
+							             //        'stroke-width': 1
+							             //    });
+                    //     			console.log(a);
+                    //     });
+                    // });
                 })
                 .on('mouseout', function(data) {
                     d3.select(this).attr('opacity', '1');
@@ -80,6 +92,8 @@ var colorOne = d3.scale.quantize()
                     d3.select("#tooltip1").remove();
                     d3.select("#tooltip2").remove();
                     d3.select("#tooltip3").remove();
+                    var secondSvg = document.getElementsByTagName("svg")[1];
+                    secondSvg && secondSvg.parentNode.removeChild(secondSvg);
                 })
                 .attr({
                     'fill': function(d){
@@ -114,20 +128,6 @@ var colorOne = d3.scale.quantize()
        		})
            .style('opacity', '0.75');
     });
-
-
-function getLinks(){
-    var ele = $('#article_content ul')[0].children;
-    [].slice.call(ele).forEach(function(item, i){
-        var placeId = item.childNodes[1].textContent.split('.')[0]
-        data[placeId] = {
-            "name": item.childNodes[0].textContent.slice(0, -1),
-            "url": item.children[0].href,
-            "id": item.childNodes[1].textContent.split('.')[0]
-        }
-    });
-}
-
 
 
 
