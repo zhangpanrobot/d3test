@@ -103,7 +103,7 @@ var force = d3.layout
 			  .nodes(dataset.nodes)
 			  .links(dataset.edges)
 			  .size([w, h])
-			  .linkDistance([100])
+			  .linkDistance([500])
 			  .charge([ - 100])
 			  .start();
 
@@ -112,13 +112,13 @@ var edges = svg.selectAll("line")
 			   .enter()
 			   .append("line")
 			   .style("stroke", "#ccc")
-			   .style("stroke-width", 1);
+			   .style("stroke-width", 2);
 
 var nodes = svg.selectAll("circle")
 			   .data(dataset.nodes)
 			   .enter()
 			   .append("circle")
-			   .attr("r", 10)
+			   .attr("r", 30)
 			   .style("fill",function(d, i) {return colors(i);})
 			   .call(force.drag);
 

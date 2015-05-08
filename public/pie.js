@@ -1,11 +1,11 @@
 var dataset = [5, 10, 20, 45, 6, 25];
 var pie = d3.layout.pie();
 
-var h = 300,
-w = 300;
+var h = window.innerHeight,
+w = window.innerWidth;
 
-var outerRadius = w / 2;
-var innerRadius = w/5;
+var outerRadius = w / 4;
+var innerRadius = w/10;
 var arc = d3.svg.arc().innerRadius(innerRadius).outerRadius(outerRadius);
 
 var color = d3.scale.category10();
